@@ -36,6 +36,12 @@ nav ul {
     list-style-type: none;
     text-align: center;
 }
+/* Not sure how to "properly" center the list, but I guess that's why this is an early project */
+main ul {
+    list-style-type: none;
+    position: relative;
+    left: -22px;
+}
 
 nav li {
     display: inline;
@@ -59,6 +65,11 @@ nav a:hover {
 }
 
 #banner img {
+    width: 60%;
+    height: auto;
+}
+
+#resize {
     width: 60%;
     height: auto;
 }
